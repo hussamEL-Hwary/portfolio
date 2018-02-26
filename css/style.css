@@ -1,0 +1,50 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+/* Header */
+.header {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.header-info {   
+    float: right;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: right;
+    margin-left: auto;
+    
+}
+
+.header-info h1 {
+    font-weight: 200;
+    margin-bottom: 0;
+    
+    
+}
+
+.header-info h3 {
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+hr{
+    border-width: 2px;
+    color: #7d9;
+}
