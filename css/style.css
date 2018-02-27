@@ -49,12 +49,87 @@ hr{
     color: #7d9;
 }
 
+
+/* main */
 .gallery {
     width: 100%;
 }
 
 .gallery img {
     width: 100%;
-    max-width: 100%;
+    max-width: 100%; 
+}
+
+
+.featured-work {
+   width: 100%; 
+}
+
+.featured-work h1 {
+    margin-left: 10px;
+    margin-bottom: 2px;
+    color: #7d97ad;
+    font-family: "Roboto", sans-serif;
+    font-weight: 90;
+    
+}
+
+
+.featured-work figure {
+
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 0; 
+    margin-right: 20px; 
+}
+
+.featured-work figure {
+    width: calc((100% - 50px)/3);
+    height: 20em;
+}
+
+.featured-work figure:last-of-type {
+    margin-right: 0;
+}
+
+.featured-work img {
+    height: 100%;
+    width: 100%;
+    
+    }
+
+.featured-work h2 {
+    text-align: center;
+    text-transform: uppercase;    
+    font-weight: 80;
+    color: #2d3c49;
+}
+
+.featured-work h5 {
+    text-align: center;
+    font-weight: 40;
+}
+
+
+@media screen and (max-width: 650px) {
+ 
+    .featured-work h1 {
+        text-align: center;
+    }
+    .featured-work figure {
+        display: block;
+       
+        margin: 0 50px 150px 50px;
+        width: calc(100% - 100px);
+       
+        
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        width: 900px;
+        margin: auto;
+    }
     
 }
