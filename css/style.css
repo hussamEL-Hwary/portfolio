@@ -48,3 +48,13 @@ hr{
     border-width: 2px;
     color: #7d9;
 }
+
+.gallery {
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 100%;
+    
+}
